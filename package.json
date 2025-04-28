@@ -101,21 +101,7 @@
     "workbox-window": "^7.3.0",
     "wrangler": "^3.111.0"
   },
-  "pnpm": {
-    "patchedDependencies": {
-        "dayjs": "patches/dayjs.patch"
-    },
-    "onlyBuiltDependencies": [
-      "@napi-rs/pinyin",
-      "@parcel/watcher",
-      "@swc/core",
-      "better-sqlite3",
-      "esbuild",
-      "sharp",
-      "simple-git-hooks",
-      "workerd"
-    ]
-  },
+
   "resolutions": {
     "cross-spawn": ">=7.0.6",
     "dayjs": "1.11.13",
