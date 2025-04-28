@@ -102,7 +102,9 @@
     "wrangler": "^3.111.0"
   },
   "pnpm": {
-    "patchedDependencies": {},
+    "patchedDependencies": {
+        "dayjs": "patches/dayjs.patch"
+    },
     "onlyBuiltDependencies": [
       "@napi-rs/pinyin",
       "@parcel/watcher",
